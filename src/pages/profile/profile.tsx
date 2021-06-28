@@ -1,6 +1,6 @@
 import { Component } from 'react'
 import { View, Text } from '@tarojs/components'
-import './index.scss'
+import './profile.scss'
 
 export default class Index extends Component {
 
@@ -16,9 +16,11 @@ export default class Index extends Component {
 
   render () {
     return (
-      <View className='index'>
-        <Text>HELLO CODEWJ</Text>
-        
+      <View className='profile'>
+        <Text>HELLO PROFILE</Text>
+        <View className=''>
+
+        </View>
       </View>
     )
   }
