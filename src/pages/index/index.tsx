@@ -16,9 +16,9 @@ export default class Index extends Component {
 
   render () {
     return (
-      <View className='index'>
+      <View className='index flex justify-center'>
         <Text>HELLO CODEWJ</Text>
-        
+
       </View>
     )
   }

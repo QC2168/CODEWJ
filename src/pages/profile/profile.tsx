@@ -1,8 +1,8 @@
 import { Component } from 'react'
-import { View, Text } from '@tarojs/components'
+import { View, Text} from '@tarojs/components'
 import './profile.scss'
 
-export default class Index extends Component {
+export default class Profile extends Component {
 
   componentWillMount () { }
 
@@ -16,11 +16,8 @@ export default class Index extends Component {
 
   render () {
     return (
-      <View className='profile'>
+      <View className='profile flex justify-center'>
         <Text>HELLO PROFILE</Text>
-        <View className=''>
-
-        </View>
       </View>
     )
   }

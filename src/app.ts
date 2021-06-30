@@ -1,4 +1,5 @@
 import { Component } from 'react'
+import 'windi.css';
 import './app.scss'
 
 
